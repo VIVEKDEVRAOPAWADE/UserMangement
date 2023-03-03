@@ -18,7 +18,7 @@ router.post('/user',(request,response)=>{
         response.send(utils.createResult(error, results));
     });
 })
-//delete a  particular row
+//select  particular user
 router.get('/user/:id', (request, response) => {
     const userId = request.params.id;
 
